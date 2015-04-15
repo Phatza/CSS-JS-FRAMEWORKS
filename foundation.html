@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="">
+			<title>Foundation</title>
+	<link rel="stylesheet" href="foundation/css/normalize.css">
+	<link rel="stylesheet" href="foundation/css/foundation.css">
+  	<script src="foundation/js/vendor/modernizr.js"></script>
+  	<style>
+  		section img {
+  			width: 1280px;
+  			height: 600px;
+  		}
+  		.border {
+  			border-top: 1px solid silver;
+  		}
+  	</style>
+</head>
+<body>
+			<div class="off-canvas-wrap" data-offcanvas>
+				<div class="inner-wrap">
+				    <nav class="tab-bar">
+				      <section class="left-small">
+				        <a  class="left-off-canvas-toggle menu-icon" href="#menu"><span></span></a>
+				      </section>
+
+				      <section class="middle tab-bar-section">
+				        <h1 class="title">Deutsche Qualitat</h1>
+				      </section>
+				    </nav>
+
+				    <aside class="left-off-canvas-menu">
+				      <ul class="off-canvas-list">
+				        <li><label>Foundation</label></li>
+				        <li><a href="http://foundation.zurb.com/docs/">Docs</a></li>
+				        <li><a href="http://foundation.zurb.com/docs/components/offcanvas.html">Off-canvas</a></li>
+				        <li><a href="http://foundation.zurb.com/docs/components/orbit.html">Orbit Slider</a></li>
+				        <li><a href="http://microsites.audi.com/rs/index.html?locale=fr_FR&csref=FR_int_00000000002#/rs7/start">RS7</a></li>
+				        <li><a href="http://foundation.zurb.com/docs/components/grid.html">Grid</a></li>
+				      </ul>
+				    </aside>
+
+				    <section class="main-section">
+						      	<ul class="example-orbit" data-orbit>
+								  <li class="active">
+								    <img src="img/4.jpg" alt="slide 1" />
+								    <div class="orbit-caption">
+								      AUDI RS7.
+								    </div>
+								  </li>
+								  <li>
+								    <img src="img/5.jpg" alt="slide 2" />
+								    <div class="orbit-caption">
+								      Front RS7.
+								    </div>
+								  </li>
+								  <li>
+								    <img src="img/6.jpg" alt="slide 3" />
+								    <div class="orbit-caption">
+								      Back RS7.
+								    </div>
+								  </li>
+								  <li>
+								    <img src="img/7.jpg" alt="slide 4" />
+								    <div class="orbit-caption">
+								      Motor RS7.
+								    </div>
+								  </li>
+								</ul>
+							</div>		
+						</div>
+				    </section>
+
+				  <a class="exit-off-canvas"></a>
+
+				  <div class="border"></div>
+
+				  </div>
+				  	<div class="row">
+				    	<div class="small-12 columns">
+						  	<ul class="small-block-grid-3">
+								  <li><img src="img/8.jpg" /></li>
+								  <li><form>
+								  	<input type="text" placeholder="What's the brand">
+								  	<input type="text" placeholder="what's year ?">
+								  	<h4>This is a prototype ?</h4>
+								  	<input type="checkbox"><span> Yes</span> <input type="checkbox"><span> No</span>
+								  </form>
+								  <button href="foundation.html" class="button radius">Save your answer</button>
+								  </li>
+								  <li><br><br><br>
+								  	<a href="bootstrap.html" class="button radius large">Go back to Bootstrap</a></li>
+							</ul>
+						</div> <!--small-12-columns-->
+					</div> <!--row-->
+			</div>	<!--off-canvas-wrap-->
+	
+
+
+			<script src="foundation/js/vendor/jquery.js"></script>
+  			<script src="foundation/js/foundation.min.js"></script>
+  			<script>
+			$(document).foundation();
+			</script>
+</body>
+</html>
